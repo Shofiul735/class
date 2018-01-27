@@ -119,6 +119,7 @@ nav ul li a:hover{
     float:  right;
     /* margin-top:  38px; */
     /* text-decoration: none; */
+    text-align:  right;
 }
 .conLink a{
     line-height:  15vh;
@@ -129,4 +130,29 @@ nav ul li a:hover{
     border: 1px solid;
     padding:  5px;
     background: #184e18;
+}
+footer{}
+.left{
+    width:  20%;
+    float:  left;
+}
+.left p{
+    color: #ccc1c1;
+}
+.right{
+    width:  80%;
+    float:  left;
+}
+.right ul{
+    float:  right;
+    list-style:  none;
+}
+.right ul li{
+    display:  inline-block;
+}
+.right ul li a{
+    text-decoration:  blink;
+    color: #ccc0c0;
+    text-transform:  uppercase;
+   
 }
