@@ -25,20 +25,28 @@ margin:  0 auto;
 .logo{
     width:  20%;
     float:  left;
+    line-height:  10vh;
 }
 .logo img{
     width:  20%;
+    margin-top: 2vh;
     float:  left;
 }
 .logo h1{}
 .social{
     width: 80%;
     float: right;
+    /* line-height: 10vh; */
     position:  relative;
+}
+nav hr{
+    margin-bottom:  5px;
+    width:  100%;
 }
 .social ul{
     list-style:  none;
     float:  right;
+    margin-top:  3vh;
 }
 .social ul li{
     display:  inline-block;
@@ -54,7 +62,7 @@ margin:  0 auto;
 }
 nav{
     width:  100%;
-    margin: 10px;
+    margin: 10px 0;
 }
 nav ul{
     list-style:  none;
@@ -70,9 +78,11 @@ nav ul li a{
     transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     -webkit-transition: all 0.4s ease;
+    font-weight:  bold;
 }
 nav ul li a:hover{
     color: green;
+    font-weight:  bold;
 }
 .banner{
     background: url("../images/slider_background.png");
